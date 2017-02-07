@@ -1,0 +1,30 @@
+
+public class Date {
+    public Date(int year, int month, int day){
+
+    }
+    public void addDays(int days){
+
+    }
+    public int daysTo(Date other){
+
+    }
+    public boolean equals(Object o){
+
+    }
+    public int getDay(){
+
+    }
+    public int getMonth(){
+
+    }
+    public int getYear(){
+
+    }
+    public boolean isLeapYear(){
+
+    }
+    public String toString(){
+        
+    }
+}
