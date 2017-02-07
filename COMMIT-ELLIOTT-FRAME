@@ -1,3 +1,4 @@
+//Format Date: YYYY/MM/DD
 
 public class Date {
     public Date(int year, int month, int day){
