@@ -1,0 +1,22 @@
+Project … What’s the date
+Write a class called Date that represents a date consisting of a year, month, and day. A Date object should have the following methods:
+1. public Date(int year, int month, int day)
+Constructs a new Date object to represent the given date.
+2. public void addDays(int days)
+Moves this Date object forward in time by the given number of seven-day weeks.
+3. public int daysTo(Date other)
+Returns the number of days that this Date must be adjusted to make it equal to the given other Date.
+4. public Boolean equals(Object o)
+Returns whether two Date objects represent the same calendar date.
+5. public in getDay()
+Returns this Date’s day value; for example, for the date 2017/07/22 returns 22.
+6. public int getMonth()
+Returns this Date’s month value; for example, for the date 2017/07/22 returns 07.
+7. public int getYear()
+Returns this Date’s year value; for example, for the date 2017/07/22 returns 2017.
+8. public Boolean isLeapYear()
+Returns true if this Date’s year is a leap year. A leap year occurs every four years, except for multiples of 100 that are not multiples of 400. For example, 1956, 1844, 1600, and 2000 are leap years, but 1983, 2002, 1700, and 190 are not.
+9. public String toString()
+Returns a String representation of this Date in year/month/day order, such as
+“2017/22/07”.
+(Paste your code and output below.)
